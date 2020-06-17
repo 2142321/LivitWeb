@@ -1,0 +1,69 @@
+﻿body {
+    background-color: #1ca3e6;
+}
+.app-background {
+    padding: 20px;
+    padding-bottom: 50px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 0px rgb(0, 0, 0);
+    align-content: center;
+}
+
+.activity-banner {
+    margin: 15px;
+    padding: 6px;
+    border-radius: 25px;
+    background-color: #1ca3e6;
+    box-shadow: 5px 5px 5px 0px rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+}
+
+.activity-done {
+    margin: 15px;
+    padding: 5px;
+    padding-left: 4%;
+    padding-right:3%;
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: 5px 5px 5px 0px rgba(104,240,87,1);
+    text-align: left;
+}
+
+.activity-doing {
+    margin: 15px;
+    padding: 5px;
+    padding-left: 4%;
+    padding-right: 3%;
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: 5px 5px 5px 0px rgb(255, 0, 0);
+    text-align: left;
+}e
+
+.alignleft{
+    float: left;
+}
+
+.alignright{
+    float: right;
+}
+
+.activity-date{
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.button {
+    margin-top: 50px;
+    color: white;
+    font-size: 16px;
+    padding: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-color: #1ca3e6;
+    border-radius: 20px;
+    background-color: #1ca3e6;
+    box-shadow: 5px 5px 5px 0px rgb(0, 0, 0);
+}

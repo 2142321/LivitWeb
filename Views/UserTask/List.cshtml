@@ -1,0 +1,30 @@
+﻿@model IList<UserTask>
+@{
+    ViewData["Title"] = "Activities";
+}
+    <link rel="stylesheet" href="~/css/livit.css"/>
+<div class="app-background">
+    <div class="activity-banner">
+        <h4>Activities</h4>
+    </div>
+    @foreach (var item in Model)
+    {
+        @if (item.isDone)
+        {
+            <div class="activity-done">
+                <a asp-controller="UserTask" asp-action="EditView"><p>@item.Title<span class="alignright">@item.Date</span></p></a>
+            </div>
+        }
+        else
+        {
+            <div class="activity-doing">
+                <a asp-controller="UserTask" asp-action="EditView"><p>@item.Title<span class="alignright">@item.Date</span></p></a>
+            </div>
+        }
+    }
+    <div class="text-center">
+        <a  asp-controller="UserTask" asp-action="CreateView"><input type="button" class="button" value="Add"/></a>
+    </div>
+    
+</div>
+
